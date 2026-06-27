@@ -11,7 +11,9 @@
       "logo": "https://avatars.githubusercontent.com/u/233033915?s=64&v=4",
       "homepage": "https://github.com/router-for-me/cpa-plugin-jshandler",
       "license": "MIT",
-      "tags": ["Interceptor"]
+      "tags": [
+        "Interceptor"
+      ]
     },
     {
       "id": "codex-invite",
@@ -62,7 +64,9 @@
       "logo": "https://avatars.githubusercontent.com/u/233033915?s=64&v=4",
       "homepage": "https://github.com/router-for-me/cpa-plugin-gemini-cli",
       "license": "MIT",
-      "tags": ["Provider"]
+      "tags": [
+        "Provider"
+      ]
     },
     {
       "id": "priority-auto-router",
@@ -78,6 +82,19 @@
         "Model Router",
         "Fallback",
         "Claude",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codex-429-autoban",
+      "name": "Codex 429 Auto Ban",
+      "description": "Auto-disables Codex credentials on 429 and auto re-enables them after the exhausted rate-limit window (5-hour or weekly) refreshes, using upstream x-codex-* response headers.",
+      "author": "ysxk",
+      "repository": "https://github.com/ysxk/codex-429-autoban",
+      "homepage": "https://github.com/ysxk/codex-429-autoban",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
         "Codex"
       ]
     }
